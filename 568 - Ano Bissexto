@@ -1,0 +1,5 @@
+bi = int(input())
+if (bi % 4 == 0 and not bi % 100 == 0 or bi % 400 == 0) :
+    print("BISSEXTO")
+else:
+    print("NAOBISSEXTO")
