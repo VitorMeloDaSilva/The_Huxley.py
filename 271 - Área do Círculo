@@ -1,0 +1,6 @@
+r_cm = float(input())
+r_m = r_cm / 100
+pi = 3.14159
+a = pi * r_m ** 2
+a_f = "{:.4f}".format(a)
+print(f"Area = {a_f}")
