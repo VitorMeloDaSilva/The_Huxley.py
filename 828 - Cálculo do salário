@@ -1,0 +1,5 @@
+h = float(input())
+m = float(input())
+print("Informe quanto ganha por hora:")
+print("Informe a quantidade mensal de trabalho:")
+print(f"Resultado: {h*m}")
