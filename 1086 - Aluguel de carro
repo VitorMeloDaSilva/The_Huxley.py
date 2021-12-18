@@ -1,0 +1,5 @@
+diaria = int(input())
+km = float(input())
+v = (30 * diaria ) + (0.01 * km)
+vf = v - (v * 0.1)
+print('{:.2f}'.format(vf))
