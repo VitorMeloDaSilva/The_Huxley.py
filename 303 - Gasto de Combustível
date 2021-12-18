@@ -1,0 +1,6 @@
+t=int(input())
+v=int(input())
+d=v*t
+l=d/12
+lf="{:.3f}".format(l)
+print(lf)
