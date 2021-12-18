@@ -1,0 +1,3 @@
+m = float(input())
+print("Insira um valor em metros:")
+print(f"Resultado: {m*100}")
