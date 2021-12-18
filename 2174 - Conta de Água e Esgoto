@@ -1,0 +1,8 @@
+m,c=input().split()
+m=float(m)
+c=float(c)
+l=m*1000
+vda=l*c
+vde=vda*0.8
+vt=vda+vde
+print(f"{vda:.2f}\n{vde:.2f}\n{vt:.2f}")
