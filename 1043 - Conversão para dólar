@@ -1,0 +1,4 @@
+d = float(input())
+r = d * 3.55
+r_f = "{:.2f}".format(r)
+print(r_f)
