@@ -1,0 +1,4 @@
+g=float(input())
+t=g*0.1+g
+tf="{:.2f}".format(t)
+print(tf)
