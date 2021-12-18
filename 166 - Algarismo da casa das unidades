@@ -1,0 +1,7 @@
+b = int(input())
+u = b % 10
+u_menos = -((b * (-1)) % 10)
+if b >= 0:
+    print(u)
+else:
+    print(u_menos)
