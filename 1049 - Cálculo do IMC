@@ -1,0 +1,5 @@
+m = float(input())
+a = float(input())
+imc = m / a**2
+imc_formatado = "{:.2f}".format(imc)
+print(imc_formatado)
