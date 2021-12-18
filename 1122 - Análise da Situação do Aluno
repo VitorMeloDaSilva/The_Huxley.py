@@ -1,0 +1,9 @@
+m, a, f = input().split()
+m = float(m)
+a = int(a)
+f = int(f)
+fre = a - f 
+if (fre >= a * 75/100 and m >= 5 or fre >= a * 50/100 and m >= 7):
+    print("APROVADO")
+else:
+    print("REPROVADO")
