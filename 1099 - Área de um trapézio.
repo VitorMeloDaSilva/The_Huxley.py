@@ -1,0 +1,6 @@
+bm=int(input())
+bn=int(input())
+al=int(input())
+a=(bm+bn)*al/2
+af="{:.1f}".format(a)
+print(af)
